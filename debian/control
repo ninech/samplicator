@@ -1,0 +1,12 @@
+Source: samplicator
+Section: net
+Priority: optional
+Maintainer: Roman Plessl <roman.plessl@nine.ch>
+Build-Depends: debhelper (>= 9), git, build-essential
+Standards-Version: 3.9.5
+
+Package: samplicator
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1)
+Depends: ${misc:Depends}
+Description: Packages samplicator into a deb
